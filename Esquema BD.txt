@@ -1,0 +1,25 @@
+create table 'usuarios'(
+`id` int(11) not null auto_increment,
+`nome` varchar(255) default null,
+`sobrenome` varchar(255) default null,
+`sexo` varchar(255) default null,
+`nrTelemovel` int(11) default null,
+`endereco` varchar(255) default null,
+`email` varchar(255) default null,
+`senha` varchar(255) default null,
+primary key(`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+
+
+CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) DEFAULT NULL,
+  `sobrenome` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `endereco` varchar(255) DEFAULT NULL,
+  `nrTelemovel` int(11) DEFAULT NULL,
+  `sexo` varchar(255) DEFAULT NULL,
+  `senha` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
