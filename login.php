@@ -51,8 +51,8 @@
                 // Usuário encontrado, verifique a senha
                 $row = mysqli_fetch_assoc($result);
                 if (isset($row['password']) && (password_verify($password, $row['password']))) {
-                    // Senha correta, faça login
-                //    echo' <script>alert("Login bem sucedido!")';
+                    // Senha correta
+                   echo '<script>alert("Login bem sucedido!")';
                 }else{
                     // Senha incorreta
                     echo "Senha incorreta!";
