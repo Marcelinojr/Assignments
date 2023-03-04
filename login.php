@@ -50,7 +50,7 @@
             if (mysqli_num_rows($result) > 0) {
                 // Usuário encontrado, verifique a senha
                 $row = mysqli_fetch_assoc($result);
-                if (isset($row['password']) && (password_verify($password, $row['senha'])) {
+                if (isset($row['password']) && (password_verify($password, $row['password'])) {
                     // Senha correta, faça login
                 //    echo' <script>alert("Login bem sucedido!")';
                 }else{
