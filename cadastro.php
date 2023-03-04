@@ -70,12 +70,12 @@
         $query = mysqli_query($conn, "insert into usuarios(nome, sobrenome, email, endereco, nrTelemovel, sexo, senha) 
         value ('$nome', '$sobrenome', '$email', '$endereco', '$nrTelemovel', '$sexo', '$senha')");
 
-        if($query){
-            echo '<script>alert("Cadastro realizado com Sucesso")</script>';
+//         if($query){
+//             echo '<script>alert("Cadastro realizado com Sucesso")</script>';
 
-        }else{
-            echo'<script>alert("Falha ao enviar o cadastro... Por favor, tente novamente ")</script>';
-        }
+//         }else{
+//             echo'<script>alert("Falha ao enviar o cadastro... Por favor, tente novamente ")</script>';
+//         }
     }
 
 
